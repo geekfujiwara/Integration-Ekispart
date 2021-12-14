@@ -1,0 +1,56 @@
+{
+    "type": "object",
+    "properties": {
+        "ResultSet": {
+            "type": "object",
+            "properties": {
+                "Point": {
+                    "type": [
+                        "array",
+                        "object"
+                    ],
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "Station": {
+                                "type": [
+                                    "object",
+                                    "string"
+                                ],
+                                "properties": {
+                                    "code": {
+                                        "type": [
+                                            "object",
+                                            "string"
+                                        ]
+                                    },
+                                    "Name": {
+                                        "type": [
+                                            "object",
+                                            "string"
+                                        ]
+                                    },
+                                    "Type": {
+                                        "type": [
+                                            "object",
+                                            "string"
+                                        ]
+                                    },
+                                    "Yomi": {
+                                        "type": [
+                                            "object",
+                                            "string"
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        "required": [
+                            "Station"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
