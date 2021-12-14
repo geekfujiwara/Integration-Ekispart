@@ -1,0 +1,546 @@
+{
+  "type": "object",
+  "properties": {
+      "ResultSet": {
+          "type": "object",
+          "properties": {
+              "apiVersion": {
+                  "type": [
+                      "string",
+                      "object"
+                  ]
+              },
+              "engineVersion": {
+                  "type": [
+                      "string",
+                      "object"
+                  ]
+              },
+              "Course": {
+                  "type": [
+                      "array",
+                      "object"
+                  ],
+                  "items": {
+                      "type": "object",
+                      "properties": {
+                          "searchType": {
+                              "type": [
+                                  "string",
+                                  "object"
+                              ]
+                          },
+                          "dataType": {
+                              "type": [
+                                  "string",
+                                  "object"
+                              ]
+                          },
+                          "SerializeData": {
+                              "type": [
+                                  "string",
+                                  "object"
+                              ]
+                          },
+                          "Price": {
+                              "type": [
+                                  "array",
+                                  "object"
+                              ],
+                              "items": {
+                                  "type": "object",
+                                  "properties": {
+                                      "fareRevisionStatus": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      },
+                                      "toLineIndex": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      },
+                                      "fromLineIndex": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      },
+                                      "kind": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      },
+                                      "index": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      },
+                                      "selected": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      },
+                                      "Type": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      },
+                                      "Oneway": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      },
+                                      "RevisionStatus": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      },
+                                      "Round": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      },
+                                      "passClassIndex": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      }
+                                  },
+                                  "required": [
+                                      "kind"
+                                  ]
+                              }
+                          },
+                          "Teiki": {
+                              "type": "object",
+                              "properties": {
+                                  "SerializeData": {
+                                      "type": [
+                                          "string",
+                                          "object"
+                                      ]
+                                  },
+                                  "DisplayRoute": {
+                                      "type": [
+                                          "string",
+                                          "object"
+                                      ]
+                                  }
+                              }
+                          },
+                          "PassStatus": {
+                              "type": [
+                                  "array",
+                                  "object"
+                              ],
+                              "items": {
+                                  "type": "object",
+                                  "properties": {
+                                      "teiki3Index": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      },
+                                      "teiki6Index": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      },
+                                      "kind": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      },
+                                      "selected": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      },
+                                      "teiki1Index": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      },
+                                      "Name": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      },
+                                      "Type": {
+                                          "type": [
+                                              "string",
+                                              "object"
+                                          ]
+                                      }
+                                  },
+                                  "required": [
+                                      "Name",
+                                      "Type"
+                                  ]
+                              }
+                          },
+                          "Route": {
+                              "type": "object",
+                              "properties": {
+                                  "timeOther": {
+                                      "type": [
+                                          "string",
+                                          "object"
+                                      ]
+                                  },
+                                  "timeOnBoard": {
+                                      "type": [
+                                          "string",
+                                          "object"
+                                      ]
+                                  },
+                                  "exhaustCO2": {
+                                      "type": [
+                                          "string",
+                                          "object"
+                                      ]
+                                  },
+                                  "exhaustCO2atPassengerCar": {
+                                      "type": [
+                                          "string",
+                                          "object"
+                                      ]
+                                  },
+                                  "distance": {
+                                      "type": [
+                                          "string",
+                                          "object"
+                                      ]
+                                  },
+                                  "timeWalk": {
+                                      "type": [
+                                          "string",
+                                          "object"
+                                      ]
+                                  },
+                                  "transferCount": {
+                                      "type": [
+                                          "string",
+                                          "object"
+                                      ]
+                                  },
+                                  "Line": {
+                                      "type": [
+                                          "array",
+                                          "object"
+                                      ],
+                                      "items": {
+                                          "type": "object",
+                                          "properties": {
+                                              "stopStationCount": {
+                                                  "type": [
+                                                      "string",
+                                                      "object"
+                                                  ]
+                                              },
+                                              "teiki3Index": {
+                                                  "type": [
+                                                      "string",
+                                                      "object"
+                                                  ]
+                                              },
+                                              "teiki6Index": {
+                                                  "type": [
+                                                      "string",
+                                                      "object"
+                                                  ]
+                                              },
+                                              "timeOnBoard": {
+                                                  "type": [
+                                                      "string",
+                                                      "object"
+                                                  ]
+                                              },
+                                              "track": {
+                                                  "type": [
+                                                      "string",
+                                                      "object"
+                                                  ]
+                                              },
+                                              "exhaustCO2": {
+                                                  "type": [
+                                                      "string",
+                                                      "object"
+                                                  ]
+                                              },
+                                              "fareIndex": {
+                                                  "type": [
+                                                      "string",
+                                                      "object"
+                                                  ]
+                                              },
+                                              "exhaustCO2atPassengerCar": {
+                                                  "type": [
+                                                      "string",
+                                                      "object"
+                                                  ]
+                                              },
+                                              "distance": {
+                                                  "type": [
+                                                      "string",
+                                                      "object"
+                                                  ]
+                                              },
+                                              "trainID": {
+                                                  "type": [
+                                                      "string",
+                                                      "object"
+                                                  ]
+                                              },
+                                              "teiki1Index": {
+                                                  "type": [
+                                                      "string",
+                                                      "object"
+                                                  ]
+                                              },
+                                              "Name": {
+                                                  "type": [
+                                                      "string",
+                                                      "object"
+                                                  ]
+                                              },
+                                              "Type": {
+                                                  "type": [
+                                                      "string",
+                                                      "object"
+                                                  ]
+                                              },
+                                              "ArrivalState": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                      "no": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      },
+                                                      "Type": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      },
+                                                      "Datetime": {
+                                                          "type": "object",
+                                                          "properties": {
+                                                              "text": {
+                                                                  "type": [
+                                                                      "string",
+                                                                      "object"
+                                                                  ]
+                                                              },
+                                                              "operation": {
+                                                                  "type": [
+                                                                      "string",
+                                                                      "object"
+                                                                  ]
+                                                              }
+                                                          }
+                                                      }
+                                                  }
+                                              },
+                                              "Destination": {
+                                                  "type": [
+                                                      "string",
+                                                      "object"
+                                                  ]
+                                              },
+                                              "TimeReliability": {
+                                                  "type": [
+                                                      "string",
+                                                      "object"
+                                                  ]
+                                              },
+                                              "DepartureState": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                      "no": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      },
+                                                      "Type": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      },
+                                                      "Datetime": {
+                                                          "type": "object",
+                                                          "properties": {
+                                                              "text": {
+                                                                  "type": [
+                                                                      "string",
+                                                                      "object"
+                                                                  ]
+                                                              },
+                                                              "operation": {
+                                                                  "type": [
+                                                                      "string",
+                                                                      "object"
+                                                                  ]
+                                                              }
+                                                          }
+                                                      }
+                                                  }
+                                              },
+                                              "LineSymbol": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                      "code": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      },
+                                                      "Name": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      }
+                                                  }
+                                              },
+                                              "Color": {
+                                                  "type": [
+                                                      "string",
+                                                      "object"
+                                                  ]
+                                              }
+                                          },
+                                          "required": [
+                                              "Name",
+                                              "Type"
+                                          ]
+                                      }
+                                  },
+                                  "Point": {
+                                      "type": [
+                                          "array",
+                                          "object"
+                                      ],
+                                      "items": {
+                                          "type": "object",
+                                          "properties": {
+                                              "Station": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                      "code": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      },
+                                                      "Name": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      },
+                                                      "Type": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      },
+                                                      "Yomi": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      }
+                                                  }
+                                              },
+                                              "Prefecture": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                      "code": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      },
+                                                      "Name": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      }
+                                                  }
+                                              },
+                                              "GeoPoint": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                      "longi": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      },
+                                                      "lati": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      },
+                                                      "longi_d": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      },
+                                                      "gcs": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      },
+                                                      "lati_d": {
+                                                          "type": [
+                                                              "string",
+                                                              "object"
+                                                          ]
+                                                      }
+                                                  }
+                                              }
+                                          },
+                                          "required": [
+                                              "Station"
+                                          ]
+                                      }
+                                  }
+                              }
+                          }
+                      },
+                      "required": [
+                          "Route"
+                      ]
+                  }
+              }
+          }
+      }
+  }
+}
